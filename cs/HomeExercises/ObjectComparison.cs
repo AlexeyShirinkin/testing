@@ -24,6 +24,7 @@ namespace HomeExercises
 			Assert.AreEqual(expectedTsar.Parent!.Name, actualTsar.Parent!.Name);
 			Assert.AreEqual(expectedTsar.Parent.Age, actualTsar.Parent.Age);
 			Assert.AreEqual(expectedTsar.Parent.Height, actualTsar.Parent.Height);
+			Assert.AreEqual(expectedTsar.Parent.Parent, actualTsar.Parent.Parent);
 		}
 
 		[Test]
